@@ -29,8 +29,7 @@ dataset을 만든 후 datalodader
 torch.utils.data.Dataset 상속을 하여 새로운 클래스를 만듬
 -> 원하는 데이터 셋을 지정하여 customized dataset을 만들어 쓴다.
 
-## magic method 2가지 구현
-###__len__()
+### __len__()
 - dataset의 총 데이터 갯수 
 ### __getitem__()
 - 어떤 index를 받았을 때 그에 상응하는 입출력 데이터 반환.
